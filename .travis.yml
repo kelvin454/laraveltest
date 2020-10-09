@@ -3,11 +3,7 @@ language: php
 dist: precise
 
 
-php:
- - '2.6'
- - '5.4'
- - '5.6'
- - '7.0'
+
 
 notifications:
  email: kelvinkiyingi15@gmail.com 
