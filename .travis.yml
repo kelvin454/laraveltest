@@ -8,4 +8,5 @@ dist: precise
 notifications:
  email: kelvinkiyingi15@gmail.com 
   
-
+script:
+   -vendor/bin/phpunit
