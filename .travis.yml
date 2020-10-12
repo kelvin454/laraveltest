@@ -16,7 +16,7 @@ mariadb: 10.1
    #   -vendor
 
 before_script:
-  - cp .env.travis .env
+  #- cp .env.travis .env
   - sudo mysql -e 'CREATE DATABASE pings;'
   - composer self-update
   - composer install --no-interaction
