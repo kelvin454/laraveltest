@@ -19,7 +19,7 @@ before_script:
   - sudo mysql -e 'CREATE DATABASE pings;'
   - composer self-update
   - composer install --no-interaction
-  - php artisan migrate #--no-interaction -vvv
+  - php artisan migrate --no-interaction
 notifications:
  email: kelvinkiyingi15@gmail.com 
   
